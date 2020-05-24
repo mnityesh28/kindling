@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my dbms project</title> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href ="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	  <script src="script.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<!-- Image and text -->
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+	<a class="navbar-brand" href="#">
+    <img src="https://i.postimg.cc/YqtBSLfG/psyche-revived-by-cupid-s-kiss-clip-art-cupid.jpg" width="40" height="40" alt="" loading="lazy">
+  </a>
+  
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#index.html">Kindling</a>
+    </div>
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#log"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+<form action="action_page.php" method="post">
+  
+  <h3 style="color: #ffffff"><b>Login In</b></h3>
+  	<div class="l">
+    <label for="uname">Username</label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+	 </div>
+  	<div class="l">
+    <label for="psw">Password</label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <br>
+    <button type="submit"><a href="login.html">Login</a></button>
+   </div>
+
+</form>
+</div>
+
+ <div class="container2">
+<form action="/action_page.php">
+    <h3 style="color: #ffffff"><b>Sign Up</b></h3>
+    <p style="color: #ffffff">Please fill in this form to create an account.</p>
+   
+    <label for="email"><b>Email</b></label>
+    <br>
+    <input type="text" placeholder="Enter Email" name="email" required>
+	
+    <br>
+    <br>
+    <label for="psw"><b>Password</b></label>
+    <br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <br>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <br>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <p style="color:#ffffff">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn"><a href="login.html">Sign Up</a></button>
+</form>
+</div>
+
+
+
+<div class="footer">
+  <p style="color: white;">Persons appearing in photographs may not be actual members. Other data for illustrative purposes only.<br>kindling does not conduct criminal background screening of its members.To learn about Internet Dating Safety, <a href="" style="color: dodgerblue">click here</a>.</p>
+</div>
+	
+</body>
+</html>

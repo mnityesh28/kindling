@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my dbms project</title> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href ="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	  <script src="script.js"></script>
+	<style>
+    #section1 {padding-top:120px; padding-left: 80px;  height:750px;color: #fff; background-image: url("https://i.postimg.cc/zDMCkN9m/man-in-red-long-sleeved-shirt-853151.jpg"); background-repeat: no-repeat; background-size: 95%; background-position: center;}
+  #section2 {padding-top:50px;height:750px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:750px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:750px;color: #fff; background-image: url("man-and-woman-standing-at-seashore-1024969.jpg"); background-size: cover;}
+ 
+	</style>
+</head>
+<body>
+	
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <img src="https://i.postimg.cc/YqtBSLfG/psyche-revived-by-cupid-s-kiss-clip-art-cupid.jpg" width="40" height="40" alt="" loading="lazy">
+  </a>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Kindling</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">More About You</a></li>
+          <li><a href="#section2">Our Users</a></li>
+          <li><a href="#section3">Search Users</a></li>
+          <li><a href="#section4">About Us</a></li>
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+<div id="section1" class="container-fluid">
+ 
+ <form action="/action_page.php">
+ <div class="container3">
+   
+  
+  <div class="row">
+    <div class="col-25" >
+      <label for="fname"><b>First Name </b></label>
+    </div>
+    <div class="col-75">
+      <input type="text" style="color: #000000; width:300px;" id="fname" name="firstname" placeholder="Your name.." required>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname"><b>Last Name </b></label>
+    </div>
+    <div class="col-75">
+      <input type="text"  style="color: #000000; width: 300px;" id="lname" name="lastname" placeholder="Your last name.." required>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country" style="width: 200px; color: #000000">
+        <option  style="color: #000000; width: 200px;" value="australia">Australia</option>
+        <option  style="color: #000000; width: 200px;" value="canada">Canada</option>
+        <option  style="color: #000000; width: 200px;" value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 mb-3" style="padding-left: 0px;">
+      <label for="validationTooltip03">City</label>
+      <input type="text" placeholder="City" style="color: #000000;">
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip04">State</label>
+      <input type="text" placeholder="State" style="color: #000000;">
+    </div>
+    <div class="col-md-2 mb-2">
+      <label for="validationTooltip05">Zip</label>
+      <input type="text" placeholder="Zip" style="color: #000000;">
+    </div>
+  </div>
+
+  <br>
+   <div class="row">
+    <div class="col-25">
+      <label for="gender">Gender</label>
+    </div>
+    <div class="col-75">
+      <select id="gender" name="gender" style="width: 150px; color: #000000">
+        <option  style="color: #000000; width: 150px;" value="male">Male</option>
+        <option  style="color: #000000; width: 150px;" value="female">Female</option>
+        <option  style="color: #000000; width: 150px;" value="other">Other</option>
+      </select>
+    </div>
+  </div>
+
+<br>
+   <div class="row">
+    <div class="col-25">
+      <label for="interested_in">Interested In</label>
+    </div>
+    <div class="col-75">
+      <select id="interested_in" name="interested_in" style="width: 150px; color: #000000">
+        <option  style="color: #000000; width: 150px;" value="male">Male</option>
+        <option  style="color: #000000; width: 150px;" value="female">Female</option>
+        <option  style="color: #000000; width: 150px;" value="other">Other</option>
+      </select>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-25">
+      <label for="marital_status">Marital Status</label>
+    </div>
+    <div class="col-75">
+      <select id="marital_status" name="marital_status" style="width: 200px; color: #000000">
+        <option  style="color: #000000; width: 200px;" value="preferred_not_to_say">Preferred Not To Say</option>
+        <option  style="color: #000000; width: 200px;" value="married">Married</option>
+        <option  style="color: #000000; width: 200px;" value="single">single</option>
+        <option  style="color: #000000; width: 200px;" value="divorced">Divorced</option>
+         <option  style="color: #000000; width: 200px;" value="seperated">Seperated</option>
+          <option  style="color: #000000; width: 200px;" value="attached">Attached</option>
+           <option  style="color: #000000; width: 200px;" value="widowed">Widowed</option>
+      </select>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-25">
+      <label for="religion">Religion</label>
+    </div>
+    <div class="col-75">
+      <select id="religion" name="religion" style="width: 100px; color: #000000">
+        <option  style="color: #000000; width: 100px;" value="christianity">Christianity</option>
+        <option  style="color: #000000; width: 100px;" value="islam">Islam</option>
+        <option  style="color: #000000; width: 100px;" value="nonreligious">Nonreligious</option>
+        <option  style="color: #000000; width: 100px;" value="hinduism">Hinduism</option>
+         <option  style="color: #000000; width: 100px;" value="buddhism">Buddhism</option>
+          <option  style="color: #000000; width: 100px;" value="sikhism">Sikhism</option>
+           <option  style="color: #000000; width: 100px;" value="jainism">Jainism</option>
+           <option  style="color: #000000; width: 100px;" value="spiritism">Spiritism</option>
+
+      </select>
+    </div>
+  </div>
+</div>
+
+ <div class="container4">
+
+   <div class="row">
+    <div class="col-25">
+      <label for="education_status">Education Status</label>
+    </div>
+    <div class="col-75">
+      <select id="education_status" name="education_status" style="width: 200px; color: #000000">
+        <option  style="color: #000000; width: 200px;" value="not_educated">Not educated</option>
+        <option  style="color: #000000; width: 200px;" value="high_school">High school</option>
+        <option  style="color: #000000; width: 200px;" value="Bachlor's">Bachlor's</option>
+        <option  style="color: #000000; width: 200px;" value="master's">Master's</option>
+         <option  style="color: #000000; width: 200px;" value="doctoral">Doctoral</option>
+      </select>
+    </div>
+  </div>
+  <br>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="accupation">Occupation</label>
+    </div>
+    <div class="col-75">
+      <input style="width: 150px; color: black;" type="text" id="occupation" name="occupation" placeholder="what you doingg..">
+    </div>
+  </div>
+  <br>
+  
+  <div class="row">
+    <div class="col-25">
+      <label for="subject"><b>Tell about yourself</b></label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; color: #000000;"></textarea>
+       <p style="color: grey;">Need help? Try these tools: <a href="">Writing ideas</a></p>
+    </div>
+  </div>
+
+  <div class="custom-file">
+  <label class="custom-file-label" for="customFile"><b>Upload Photo</b></label>
+    <input type="file" class="custom-file-input" id="customFile">
+</div>
+<br><br>
+<input type="submit" value="Submit" style="color: white; background-color: green;">
+   </div>
+  </form>
+</div>
+
+
+
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+
+<div id="section4" class="container-fluid">
+ 
+  <div class="container3 " style="height: 500px; bottom: 150px; padding-left: 25px; padding-right: 25px; text-align: center; left: 450px; opacity: 0.7;">
+     <h1 style="text-align: center;">Kindling </h1><br><br>
+  <p>Academic dbms project. It is an online partner finding web application that allows users to anonymously find his/her perfect match based on their age, height and common interests etc. Once the profiles are matched,they can exchange messages. For the person who is using the application for the first time, the application will prompt the user to register first. In the Registration page He will enter his Name,e-mail address,gender,age,profile photo,qualification,address and a small bio which will have his/her likes and dislikes. After registering the profiles in which he/she is interested will be shown, If the user feels his profile is matching with the other,then can send a request or skip the profile. If he/she approves it then a chatbot will appear where they can interact. If any of the individuals finds the conversation not in his/her context can block the conversation and come out of the chatbot.</p>
+</div>
+</div>
+
+<div class="footer">
+  <p>Persons appearing in photographs may not be actual members. Other data for illustrative purposes only.<br>kindling does not conduct criminal background screening of its members.To learn about Internet Dating Safety, <a href="">click here</a>.</p>
+</div>
+
+</body>
+</html>
